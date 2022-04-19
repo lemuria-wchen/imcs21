@@ -4,9 +4,9 @@ This repo provides a new corpus benchmark called [*DialoIMC*] for automated medi
 
 - Background
 - Tasks
-  - NER: LSTM-CRF, BERT-CRF, RoBERTa-CRF, MacBERT-CRF
-  - DAC: TextCNN, TextRNN, TextRCNN, DPCNN, BERT, ERNIE
-  - SRI: MLC, MTL
+  - NER: [BERT-CRF](), [LEBERT]() 
+  - DAC: [TextCNN](), TextRNN, TextRCNN, DPCNN, BERT, ERNIE
+  - SRI: BERT-MLC, BERT-MTL
   - MRG: Seq2seq, PG, Transformer, ProphetNet, T5
   - DDP: DQN, KQ-DQN, REFUEL, GAMP, HRL
 - Baseline codes
