@@ -1,8 +1,12 @@
 # DialoAMC
 
+This repo contains a new corpus benchmark called **DialoAMC** for automated medical consultation system, as well as the code for reproducing the experiments.
 
-This repo provides a new corpus benchmark called **DialoAMC** for automated medical consultations, as well as the code for reproducing the experiments. 
+### News
 
+- The test set of DialoAMC is host on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge) at [TIANCHI](https://tianchi.aliyun.com/competition/gameList/activeList) platform. See more details in https://github.com/lemuria-wchen/imcs21-cblue. Welcome to submit your results on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge), or compare our results on the validation set.   
+- Please see more details in our arxiv paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets]().
+- DialoAMC is released, containing a total of 4,116 annotated medical consultation records that covers 10 pediatric diseases.   
 
 ### Tasks
 
@@ -525,3 +529,6 @@ This repo provides a new corpus benchmark called **DialoAMC** for automated medi
 </tbody>
 </table>
 
+### How to Cite
+
+If you extend or use this work, please cite the [paper]() where it was introduced. 
