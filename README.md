@@ -1,16 +1,16 @@
-# IMCS21
+# DialoAMC
 
-This repo provides a new corpus benchmark called [*DialoIMC*] for automated medical consultations, as well as the code for reproducing the experiments. 
 
-- Background
-- Tasks
-  - NER: [BERT-CRF](), [LEBERT]() 
-  - DAC: [TextCNN](), TextRNN, TextRCNN, DPCNN, BERT, ERNIE
-  - SRI: BERT-MLC, BERT-MTL
-  - MRG: Seq2seq, PG, Transformer, ProphetNet, T5
-  - DDP: DQN, KQ-DQN, REFUEL, GAMP, HRL
-- Baseline codes
-- Dataset Introduction
+This repo provides a new corpus benchmark called **DialoAMC** for automated medical consultations, as well as the code for reproducing the experiments. 
+
+
+### Tasks
+
+- NER: [BERT-CRF](https://github.com/lemuria-wchen/imcs21/tree/main/task/NER/BERT-NER), [LEBERT]() 
+- DAC: [TextCNN](https://github.com/lemuria-wchen/imcs21/tree/main/task/DAC/DNN-DAC), [TextRNN](https://github.com/lemuria-wchen/imcs21/tree/main/task/DAC/DNN-DAC), [TextRCNN](https://github.com/lemuria-wchen/imcs21/tree/main/task/DAC/DNN-DAC), [DPCNN](https://github.com/lemuria-wchen/imcs21/tree/main/task/DAC/DNN-DAC), [BERT](https://github.com/lemuria-wchen/imcs21/tree/main/task/DAC/BERT-DAC), [ERNIE](https://github.com/lemuria-wchen/imcs21/tree/main/task/DAC/BERT-DAC)
+- SRI: [BERT-MLC](https://github.com/lemuria-wchen/imcs21/tree/main/task/SLI/MLC-SLI), [BERT-MTL](https://github.com/lemuria-wchen/imcs21/tree/main/task/SLI/MTL-SLI)
+- MRG: [Seq2seq](https://github.com/lemuria-wchen/imcs21/tree/main/task/MRG/opennmt), [PG](https://github.com/lemuria-wchen/imcs21/tree/main/task/MRG/opennmt), [Transformer](https://github.com/lemuria-wchen/imcs21/tree/main/task/MRG/opennmt), [ProphetNet](https://github.com/lemuria-wchen/imcs21/tree/main/task/MRG/prophetnet), [T5](https://github.com/lemuria-wchen/imcs21/tree/main/task/MRG/t5)
+- DDP: [DQN](https://github.com/lemuria-wchen/imcs21/tree/main/task/DDP), [KQ-DQN](https://github.com/lemuria-wchen/imcs21/tree/main/task/DDP), [REFUEL](https://github.com/lemuria-wchen/imcs21/tree/main/task/DDP), [GAMP](https://github.com/lemuria-wchen/imcs21/tree/main/task/DDP), [HRL](https://github.com/lemuria-wchen/imcs21/tree/main/task/DDP)
 
 ### Results of NER Task
 
