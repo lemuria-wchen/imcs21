@@ -57,5 +57,5 @@ python eval_ner.py --gold_path ../../dataset/dev.json --pred_path BERT-NER/pred_
 ### Identify Entities in Predicted Medical Reports (MRG Task)
 
 ```shell
-python inference.py --test_input_file ../LEBERT/datasets/msra/test.json --model_dir saved/bert
+python inference.py --test_input_file ../LeBERT/datasets/msra/test.json --model_dir saved/bert
 ```

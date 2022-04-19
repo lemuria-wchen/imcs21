@@ -54,7 +54,7 @@ for file in ['lstm', 'pg', 'tf']:
 
 keys = ['gold', 'lstm', 'pg', 'tf', 'prophetnet', 't5']
 
-with open('../NER/LEBERT/datasets/msra/test.json', 'w', encoding='utf-8') as f:
+with open('../NER/LeBERT/datasets/msra/test.json', 'w', encoding='utf-8') as f:
     for key in keys:
         for value in mrs.get(key):
             if key == 'gold':
