@@ -1,12 +1,12 @@
 # DialoAMC
 
-This repo contains a new corpus benchmark called **DialoAMC** for automated medical consultation system, as well as the code for reproducing the experiments in the paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://arxiv.org/abs/2204.08997). 
+This repo contains a new corpus benchmark called [DialoAMC](https://github.com/lemuria-wchen/imcs21/tree/main/dataset) for automated medical consultation system, as well as the code for reproducing the experiments in the paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://arxiv.org/abs/2204.08997). 
 
 ### News
 
-- The test set of DialoAMC is host on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge) at [TIANCHI](https://tianchi.aliyun.com/competition/gameList/activeList) platform. See more details in https://github.com/lemuria-wchen/imcs21-cblue. Welcome to submit your results on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge), or compare our results on the validation set.   
+- The test set of [DialoAMC](https://github.com/lemuria-wchen/imcs21/tree/main/dataset) is host on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge) at [TIANCHI](https://tianchi.aliyun.com/competition/gameList/activeList) platform. See more details in https://github.com/lemuria-wchen/imcs21-cblue. Welcome to submit your results on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge), or compare our results on the validation set.   
 - Please see more details in our arxiv paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://arxiv.org/abs/2204.08997).
-- DialoAMC is released, containing a total of 4,116 annotated medical consultation records that covers 10 pediatric diseases.   
+- [DialoAMC](https://github.com/lemuria-wchen/imcs21/tree/main/dataset) is released, containing a total of 4,116 annotated medical consultation records that covers 10 pediatric diseases.   
 
 ### Tasks
 
