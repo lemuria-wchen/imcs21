@@ -358,7 +358,7 @@ This repo contains a new corpus benchmark called [DialoAMC](https://github.com/l
     <td>35.29</td>
     <td>85.24</td>
     <td>95.68</td>
-    <td>87.88/td>
+    <td>87.88</td>
     <td>91.62</td>
   </tr>
   <tr>
