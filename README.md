@@ -359,7 +359,7 @@ This repo contains a new corpus benchmark called [DialoAMC](https://github.com/l
     <td>64.60</td>
   </tr>
   <tr>
-    <td colspan="8">SLI-IMP (Symptom&nbsp;&nbsp;&nbsp;Recognition)</td>
+    <td colspan="8">SLI-IMP (Symptom Recognition)</td>
   </tr>
   <tr>
     <td rowspan="2">BERT-MLC</td>
