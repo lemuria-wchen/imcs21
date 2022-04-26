@@ -534,9 +534,9 @@ This repo contains a new corpus benchmark called [DialoAMC](https://github.com/l
 If you extend or use this work, please cite the [paper](https://arxiv.org/abs/2204.08997) where it was introduced. 
 
 ```
-@article{chen2022medical,
+@article{chen2022benchmark,
   title={A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets},
-  author={Wei Chen and Zhiwei Li and Hongyi Fang and Qianyuan Yao and Cheng Zhong and Jianye Hao and Qi Zhang and Xuanjing Huang and Jiajie Peng and Zhongyu Wei},
+  author={Chen, Wei and Li, Zhiwei and Fang, Hongyi and Yao, Qianyuan and Zhong, Cheng and Hao, Jianye and Zhang, Qi and Huang, Xuanjing and Wei, Zhongyu and others},
   journal={arXiv preprint arXiv:2204.08997},
   year={2022}
 }
