@@ -354,12 +354,12 @@ This repo contains a new corpus benchmark called [DialoAMC](https://github.com/l
   </tr>
   <tr>
     <td>Test</td>
-    <td>35.88</td>
-    <td>38.77</td>
-    <td>83.76</td>
-    <td>96.11</td>
-    <td>86.18</td>
-    <td>90.88</td>
+    <td>38.78</td>
+    <td>35.29</td>
+    <td>85.24</td>
+    <td>95.68</td>
+    <td>87.88/td>
+    <td>91.62</td>
   </tr>
   <tr>
     <td colspan="8">SLI-IMP (Symptom Inference)</td>
@@ -396,20 +396,20 @@ This repo contains a new corpus benchmark called [DialoAMC](https://github.com/l
   <tr>
     <td rowspan="2">BERT-MTL</td>
     <td>Dev</td>
-    <td>79.83</td>
-    <td>53.38</td>
-    <td>60.94</td>
-    <td>64.72</td>
-    <td>71.38</td>
+    <td>80.13</td>
+    <td>50.26</td>
+    <td>59.01</td>
+    <td>63.13</td>
+    <td>70.89</td>
     <td></td>
   </tr>
   <tr>
     <td>Test</td>
-    <td>79.64</td>
-    <td>53.87</td>
-    <td>60.20</td>
-    <td>64.57</td>
-    <td>71.08</td>
+    <td>80.14</td>
+    <td>52.15</td>
+    <td>58.94</td>
+    <td>63.74</td>
+    <td>71.16</td>
     <td></td>
   </tr>
 </tbody>
