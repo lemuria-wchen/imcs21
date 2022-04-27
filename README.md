@@ -421,6 +421,7 @@ This repo contains a new corpus benchmark called [DialoAMC](https://github.com/l
 <thead>
   <tr>
     <th>Models</th>
+    <th>Split</th>
     <th>B-2</th>
     <th>B-4</th>
     <th>R-1</th>
@@ -432,54 +433,109 @@ This repo contains a new corpus benchmark called [DialoAMC](https://github.com/l
 </thead>
 <tbody>
   <tr>
-    <td>Seq2Seq</td>
-    <td>54.43</td>
-    <td>43.95</td>
-    <td>54.13</td>
-    <td>43.98</td>
-    <td>50.42</td>
-    <td>36.73</td>
-    <td>48.34</td>
+    <td rowspan="2">Seq2Seq</td>
+    <td>Dev</td>
+    <td>45.16</td>
+    <td>34.16</td>
+    <td>53.45</td>
+    <td>38.15</td>
+    <td>50.11</td>
+    <td>34.95</td>
+    <td>38.54</td>
   </tr>
   <tr>
-    <td>PG</td>
-    <td>58.31</td>
-    <td>49.31</td>
-    <td>59.46</td>
-    <td>49.79</td>
-    <td>56.34</td>
+    <td>Test</td>
+    <td>46.67</td>
+    <td>35.42</td>
+    <td>54.15</td>
+    <td>38.86</td>
+    <td>50.89</td>
+    <td>35.46</td>
+    <td>39.33</td>
+  </tr>
+  <tr>
+    <td rowspan="2">PG</td>
+    <td>Dev</td>
+    <td>53.73</td>
+    <td>43.58</td>
+    <td>56.95</td>
+    <td>43.21</td>
+    <td>53.36</td>
+    <td>42.83</td>
+    <td>53.06</td>
+  </tr>
+  <tr>
+    <td>Test</td>
+    <td>54.66</td>
+    <td>44.18</td>
+    <td>57.27</td>
+    <td>43.41</td>
+    <td>53.64</td>
+    <td>43.51</td>
+    <td>53.51</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Transformer</td>
+    <td>Dev</td>
+    <td>50.82</td>
+    <td>38.47</td>
+    <td>53.30</td>
+    <td>38.83</td>
+    <td>48.99</td>
+    <td>36.68</td>
+    <td>46.34</td>
+  </tr>
+  <tr>
+    <td>Test</td>
+    <td>51.16</td>
+    <td>38.88</td>
+    <td>53.99</td>
+    <td>39.38</td>
+    <td>49.78</td>
+    <td>37.19</td>
+    <td>45.75</td>
+  </tr>
+  <tr>
+    <td rowspan="2">T5</td>
+    <td>Dev</td>
+    <td>51.37</td>
+    <td>39.31</td>
+    <td>59.97</td>
+    <td>43.16</td>
+    <td>56.47</td>
     <td>46.36</td>
-    <td>56.60</td>
+    <td>43.46</td>
   </tr>
   <tr>
-    <td>Transformer</td>
-    <td>58.57</td>
-    <td>47.67</td>
-    <td>57.25</td>
-    <td>46.29</td>
-    <td>53.29</td>
-    <td>40.64</td>
-    <td>54.50</td>
+    <td>Test</td>
+    <td>53.05</td>
+    <td>41.05</td>
+    <td>60.97</td>
+    <td>44.18</td>
+    <td>57.63</td>
+    <td>47.35</td>
+    <td>49.32</td>
   </tr>
   <tr>
-    <td>T5</td>
-    <td>62.57</td>
-    <td>52.48</td>
-    <td>61.20</td>
-    <td>50.98</td>
-    <td>58.18</td>
-    <td>46.55</td>
-    <td>47.60</td>
+    <td rowspan="2">ProphetNet</td>
+    <td>Dev</td>
+    <td>60.88</td>
+    <td>48.13</td>
+    <td>59.97</td>
+    <td>44.79</td>
+    <td>55.64</td>
+    <td>48.42</td>
+    <td>57.38</td>
   </tr>
   <tr>
-    <td>ProphetNet</td>
-    <td>58.11</td>
-    <td>49.06</td>
-    <td>61.18</td>
-    <td>50.33</td>
-    <td>57.94</td>
-    <td>49.61</td>
-    <td>55.36</td>
+    <td>Test</td>
+    <td>62.66</td>
+    <td>50.25</td>
+    <td>60.48</td>
+    <td>45.73</td>
+    <td>56.41</td>
+    <td>49.48</td>
+    <td>61.90</td>
   </tr>
 </tbody>
 </table>
