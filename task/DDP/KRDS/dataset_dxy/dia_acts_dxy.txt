@@ -1,0 +1,7 @@
+request
+inform
+confirm
+deny
+not_sure
+thanks
+closing
