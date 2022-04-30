@@ -1,6 +1,0 @@
-tqdm
-tensorboardX
-sklearn
-boto3
-requests
-regex
