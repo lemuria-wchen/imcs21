@@ -51,8 +51,8 @@ def multi_label_metric(golds, preds):
     print('Sample Recall: {}'.format(precision_score(y_true=golds, y_pred=preds, average='samples', zero_division=0)))
     print('Sample F1: {}'.format(f1_score(y_true=golds, y_pred=preds, average='samples', zero_division=0)))
     # Label-based Metrics
-    print('micro Precision: {}'.format(recall_score(y_true=golds, y_pred=preds, average='micro', zero_division=0)))
-    print('micro Recall: {}'.format(precision_score(y_true=golds, y_pred=preds, average='micro', zero_division=0)))
+    print('micro Recall: {}'.format(recall_score(y_true=golds, y_pred=preds, average='micro', zero_division=0)))
+    print('micro Precision: {}'.format(precision_score(y_true=golds, y_pred=preds, average='micro', zero_division=0)))
     print('micro F1: {}'.format(f1_score(y_true=golds, y_pred=preds, average='micro', zero_division=0)))
 
 
