@@ -1,11 +1,11 @@
 # IMCS-21
 
-This repo contains a new corpus benchmark called **IMCS-21** for automated medical consultation system, as well as the code for reproducing the experiments in the paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://arxiv.org/abs/2204.08997). 
+This repo contains a new corpus benchmark called **IMCS-21** for automated medical consultation system, as well as the code for reproducing the experiments in our Bioinformatics 2022 paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac817/6947983). 
 
 ### News
 
 - The test set of IMCS-21 is host on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge) at [TIANCHI](https://tianchi.aliyun.com/competition/gameList/activeList) platform. See more details in https://github.com/lemuria-wchen/imcs21-cblue. Welcome to submit your results on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge), or compare our results on the validation set.   
-- Please see more details in our arxiv paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://arxiv.org/abs/2204.08997).
+- Please see more details in our Bioinformatics 2022 paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac817/6947983).
 - IMCS-21 is released, containing a total of 4,116 annotated medical consultation records that covers 10 pediatric diseases.   
 
 ### TODO
@@ -593,13 +593,20 @@ The follow baseline codes are available:
 
 ### How to Cite
 
-If you extend or use this work, please cite the [paper](https://arxiv.org/abs/2204.08997) where it was introduced.
+If you extend or use this work, please cite the [paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac817/6947983) where it was introduced.
 
 ```
-@article{chen2022benchmark,
-  title={A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets},
-  author={Chen, Wei and Li, Zhiwei and Fang, Hongyi and Yao, Qianyuan and Zhong, Cheng and Hao, Jianye and Zhang, Qi and Huang, Xuanjing and Wei, Zhongyu and others},
-  journal={arXiv preprint arXiv:2204.08997},
-  year={2022}
+@article{10.1093/bioinformatics/btac817,
+    author = {Chen, Wei and Li, Zhiwei and Fang, Hongyi and Yao, Qianyuan and Zhong, Cheng and Hao, Jianye and Zhang, Qi and Huang, Xuanjing and Peng, Jiajie and Wei, Zhongyu},
+    title = "{A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets}",
+    journal = {Bioinformatics},
+    year = {2022},
+    month = {12},
+    abstract = "{In recent years, interest has arisen in using machine learning to improve the efficiency of automatic medical consultation and enhance patient experience. In this article, we propose two frameworks to support automatic medical consultation, namely doctor-patient dialogue understanding and task-oriented interaction. We create a new large medical dialogue dataset with multi-level fine-grained annotations and establish five independent tasks, including named entity recognition, dialogue act classification, symptom label inference, medical report generation and diagnosis-oriented dialogue policy.We report a set of benchmark results for each task, which shows the usability of the dataset and sets a baseline for future studies.Both code and data is available from https://github.com/lemuria-wchen/imcs21.Supplementary data are available at Bioinformatics online.}",
+    issn = {1367-4803},
+    doi = {10.1093/bioinformatics/btac817},
+    url = {https://doi.org/10.1093/bioinformatics/btac817},
+    note = {btac817},
+    eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btac817/48290490/btac817.pdf},
 }
 ```
