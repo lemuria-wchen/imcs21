@@ -26,6 +26,11 @@ The baseline includes:
 - MRG task: [Seq2Seq](https://arxiv.org/abs/1602.06023), [PG](https://arxiv.org/abs/1704.04368), [Transformer](https://arxiv.org/abs/1706.03762), [T5](https://arxiv.org/abs/1910.10683), [ProphetNet](https://arxiv.org/abs/2001.04063) 
 - DDP task: [DQN](https://aclanthology.org/P18-2033/), [KQ-DQN](https://arxiv.org/abs/1901.10623), [REFUEL](https://dl.acm.org/doi/pdf/10.5555/3504035.3504316), [GAMP](https://ojs.aaai.org/index.php/AAAI/article/view/5456), [HRL](https://arxiv.org/abs/2004.14254)
 
+Note: 
+
+1. The results reported on the github are slightly different from those reported in the [paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac817/6947983). This is because we retrained the model. For fair comparison, readers are recommended to either compare the results in the paper or compare the results reported in this document.
+2. If you need to compare the results on the dev set, these results are only available in this document.
+
 ### Results of NER Task
 
 To evaluate NER task, we use two types of metrics, entity-level and token-level. Due to space limitations, we only keep the results of token-level metrics in our [paper](https://arxiv.org/abs/2204.08997). 
