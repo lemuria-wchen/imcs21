@@ -4,6 +4,7 @@ This repo contains a new corpus benchmark called **IMCS-21** for automated medic
 
 ### News
 
+- We update IMCS-21 2.0 version in [here](https://github.com/lemuria-wchen/imcs21-cblue) !
 - The test set of IMCS-21 is host on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge) at [TIANCHI](https://tianchi.aliyun.com/competition/gameList/activeList) platform. See more details in https://github.com/lemuria-wchen/imcs21-cblue. Welcome to submit your results on [CBLEU](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge), or compare our results on the validation set.   
 - Please see more details in our Bioinformatics 2022 paper [A Benchmark for Automatic Medical Consultation System: Frameworks, Tasks and Datasets](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac817/6947983).
 - IMCS-21 is released, containing a total of 4,116 annotated medical consultation records that covers 10 pediatric diseases.   
