@@ -33,7 +33,7 @@ Note:
 
 ### Results of NER Task
 
-To evaluate NER task, we use two types of metrics, entity-level and token-level. Due to space limitations, we only keep the results of token-level metrics in our [paper](https://arxiv.org/abs/2204.08997). 
+To evaluate NER task, we use two types of metrics, entity-level and token-level. Due to space limitations, we only keep the results of token-level metrics in our [paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac817/6947983). 
 
 For entity-level, we report token-level F1 score for each entity category, as well as the overall F1 score, following the setting of [CoNLL-2003](https://aclanthology.org/W03-0419/).
 
