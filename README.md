@@ -219,10 +219,10 @@ The follow baseline codes are available:
   </tr>
   <tr>
     <td>Test</td>
-    <td>74.76</td>
-    <td>70.06</td>
-    <td>71.91</td>
-    <td>78.93</td>
+    <td>74.02</td>
+    <td>70.92</td>
+    <td>72.22</td>
+    <td>78.99</td>
   </tr>
   <tr>
     <td rowspan="2">TextRNN</td>
@@ -234,10 +234,10 @@ The follow baseline codes are available:
   </tr>
   <tr>
     <td>Test</td>
-    <td>72.53</td>
-    <td>70.99</td>
-    <td>71.23</td>
-    <td>78.46</td>
+    <td>73.07</td>
+    <td>69.88</td>
+    <td>70.96</td>
+    <td>78.53</td>
   </tr>
   <tr>
     <td rowspan="2">TextRCNN</td>
@@ -249,10 +249,10 @@ The follow baseline codes are available:
   </tr>
   <tr>
     <td>Test</td>
-    <td>74.29</td>
-    <td>72.07</td>
-    <td>72.84</td>
-    <td>79.49</td>
+    <td>73.82</td>
+    <td>72.53</td>
+    <td>72.89</td>
+    <td>79.40</td>
   </tr>
   <tr>
     <td rowspan="2">DPCNN</td>
@@ -264,10 +264,10 @@ The follow baseline codes are available:
   </tr>
   <tr>
     <td>Test</td>
-    <td>71.29</td>
-    <td>71.82</td>
-    <td>71.38</td>
-    <td>77.91</td>
+    <td>74.30</td>
+    <td>69.45/td>
+    <td>71.28</td>
+    <td>78.75</td>
   </tr>
   <tr>
     <td rowspan="2">BERT</td>
@@ -294,10 +294,10 @@ The follow baseline codes are available:
   </tr>
   <tr>
     <td>Test</td>
-    <td>75.72</td>
-    <td>76.94</td>
-    <td>76.25</td>
-    <td>81.91</td>
+    <td>75.35</td>
+    <td>77.16</td>
+    <td>76.14</td>
+    <td>81.62</td>
   </tr>
 </tbody>
 </table>
